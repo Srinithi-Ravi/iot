@@ -1,5 +1,5 @@
-Smart Stick for Visually Impaired
-Project Overview
+##Smart Stick for Visually Impaired
+#Project Overview
 This project is an IoT-based smart stick designed to assist visually impaired individuals by enhancing their mobility and awareness of their surroundings. The smart stick integrates multiple sensors to provide real-time feedback about the environment, including obstacle detection, activity monitoring, and location tracking. This significantly improves upon traditional canes by offering a more comprehensive and interactive navigation aid.[1][2]
 The core of the device is an ESP32 microcontroller, which processes data from an ultrasonic sensor for obstacle detection, a 3-axis accelerometer for step counting, and a GPS module for geolocation.[1] The user is alerted to obstacles through an audible buzzer.
 Features
@@ -73,4 +73,5 @@ Distance: The distance to the nearest obstacle in centimeters.
 Steps: The number of steps taken.
 GPS Data: Latitude, longitude, altitude, speed, and the number of satellites detected. (Note: The GPS module may take some time to get an initial fix, especially indoors).
 Test the obstacle detection by placing an object in front of the ultrasonic sensor. The buzzer should sound when the object is within the 40 cm threshold.
+
 Test the step counter by walking with the stick. The step count should increase.
